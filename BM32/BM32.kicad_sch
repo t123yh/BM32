@@ -598,7 +598,7 @@
     (path "/c043d34c-1981-4578-8780-ffcf99984277/f30da4b7-5e22-410a-86c5-7ad080059694"
       (reference "#PWR0135") (unit 1) (value "+3.3VP") (footprint "")
     )
-    (path "/c043d34c-1981-4578-8780-ffcf99984277/8dd55cfd-bf63-4fd1-84c2-62e328b824c8"
+    (path "/c043d34c-1981-4578-8780-ffcf99984277/18e817da-db41-4dd3-a674-62f0016b4835"
       (reference "#PWR0136") (unit 1) (value "+3.3VP") (footprint "")
     )
     (path "/c043d34c-1981-4578-8780-ffcf99984277/dae3cd92-b451-45df-8195-2ef1b94b0688"
@@ -660,6 +660,9 @@
     )
     (path "/7f54e3bb-a553-46d0-aee2-173fee3afb8b/c15e5917-5a79-4eba-9b3b-30f35bb59c21"
       (reference "#PWR0156") (unit 1) (value "+3.3VP") (footprint "")
+    )
+    (path "/c043d34c-1981-4578-8780-ffcf99984277/11c5001d-3903-4dad-80c2-ee1db510045c"
+      (reference "#PWR0157") (unit 1) (value "+3.3VP") (footprint "")
     )
     (path "/bfb70a56-f06c-468c-942c-f9e31da31eff/aa906acd-d204-4efd-97d7-72af1a8931cb"
       (reference "C1") (unit 1) (value "100nF") (footprint "lc:0402_C")
@@ -901,7 +904,7 @@
     (path "/c043d34c-1981-4578-8780-ffcf99984277/4203dadd-6c0e-437e-90de-e521ed058a0d"
       (reference "D24") (unit 1) (value "Green") (footprint "lc:0805_LED_S1_NUM")
     )
-    (path "/c043d34c-1981-4578-8780-ffcf99984277/f23fbfc0-b0b6-4c95-927e-af2bd5e64749"
+    (path "/c043d34c-1981-4578-8780-ffcf99984277/9ba3ad97-6234-450c-a836-9407acc8f6ef"
       (reference "D25") (unit 1) (value "Yellow") (footprint "lc:0805_LED_S1_NUM")
     )
     (path "/c043d34c-1981-4578-8780-ffcf99984277/ad031672-29fb-443b-86e8-70e1f56fcdb6"
@@ -1102,6 +1105,9 @@
     (path "/14974704-7b85-4b0f-9393-9adb531a640e/e26ca9c7-4b19-4fcb-ad43-d9c2cc51f59c"
       (reference "R36") (unit 1) (value "5.1k") (footprint "lc:0402_R")
     )
+    (path "/c043d34c-1981-4578-8780-ffcf99984277/c696d1ff-2350-4d6e-9436-de7ea154a76a"
+      (reference "R37") (unit 1) (value "3.3k") (footprint "lc:0402_R")
+    )
     (path "/7f54e3bb-a553-46d0-aee2-173fee3afb8b/ea2c0fb2-8257-41a8-87bd-72e033ddf2ac"
       (reference "R38") (unit 1) (value "2.2k") (footprint "lc:0402_R")
     )
@@ -1147,6 +1153,9 @@
     (path "/7f54e3bb-a553-46d0-aee2-173fee3afb8b/60c7584d-486a-408f-b861-b3b3d6f5b326"
       (reference "R52") (unit 1) (value "47k") (footprint "lc:0402_R")
     )
+    (path "/c043d34c-1981-4578-8780-ffcf99984277/2224610e-a818-4ffd-94ef-f20b4376c215"
+      (reference "R53") (unit 1) (value "10k") (footprint "lc:0402_R")
+    )
     (path "/ea802bdd-b70f-4a1d-bd39-551821b039f8/e0394fa6-17a0-43df-9aee-d3697030208b"
       (reference "R55") (unit 1) (value "22") (footprint "lc:0402_R")
     )
@@ -1163,10 +1172,7 @@
       (reference "R59") (unit 1) (value "2.2k") (footprint "lc:0402_R")
     )
     (path "/ea802bdd-b70f-4a1d-bd39-551821b039f8/09eafacc-c18d-46b3-a8cf-bdd253534c2a"
-      (reference "R60") (unit 1) (value "DNP") (footprint "lc:0402_R")
-    )
-    (path "/ea802bdd-b70f-4a1d-bd39-551821b039f8/31c66308-ff7d-464f-a9dc-ffaf7f082c4e"
-      (reference "R61") (unit 1) (value "2.2k") (footprint "lc:0402_R")
+      (reference "R60") (unit 1) (value "10k") (footprint "lc:0402_R")
     )
     (path "/08a5c60a-1b00-4ebf-a8e1-690fb2831bdd/cc56d567-1c8d-46a4-a812-a9f9a87503cc"
       (reference "R62") (unit 1) (value "2.2k") (footprint "lc:0402_R")
@@ -1246,9 +1252,6 @@
     (path "/c043d34c-1981-4578-8780-ffcf99984277/45e3548d-b72d-4495-9c9c-0f57042b6f1d"
       (reference "R87") (unit 1) (value "10k") (footprint "lc:0402_R")
     )
-    (path "/c043d34c-1981-4578-8780-ffcf99984277/38ef9419-eadb-4164-bbf2-c06b2ef4b578"
-      (reference "R88") (unit 1) (value "3.3k") (footprint "lc:0402_R")
-    )
     (path "/c043d34c-1981-4578-8780-ffcf99984277/efa06c0a-2277-46a8-be5f-961cd5816d21"
       (reference "R89") (unit 1) (value "10k") (footprint "lc:0402_R")
     )
@@ -1269,6 +1272,9 @@
     )
     (path "/c043d34c-1981-4578-8780-ffcf99984277/d587b102-2245-4133-9ebe-cc978e3377a5"
       (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
+    )
+    (path "/c043d34c-1981-4578-8780-ffcf99984277/b29ab37a-257a-46b6-a7be-75e18d0bec23"
+      (reference "SW3") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
     )
     (path "/bfb70a56-f06c-468c-942c-f9e31da31eff/53610df7-e613-4712-be33-7e00043feb31"
       (reference "U1") (unit 1) (value "BM32F100") (footprint "Package_QFP:VQFP-176_20x20mm_P0.4mm")
